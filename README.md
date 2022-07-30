@@ -1,15 +1,20 @@
-# Title that recommends an action
-## Subtitle describing the analysis
-Author:
+# Food Sales Predictions
+## Using Predictive Machine Learning Models
+Author: Jose Flores
 
 ## Business problem:
-Here is where you state the business problem you were trying to solve
+Using data from Big Mart Sales in order to predict item outlet sales.
 
 ## Data:
-Data can include source and high-level description (e.g. # obs)
+Original data was downloaded from https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/.
+This dataset has 12 different features and a total of 8523 entries. This problem is related to predictive modeling, and I'll be using the data to make a prediction.
 
 ## Methods
-Data preparation steps with explanation and justification for choices
+I chose to use a simple impuder and encoder instead of dropping rows because of the amount of missing values. 
+The data set itself has 8523 entries. The amount of missing values were 1463 for item weight and 2410 for outlet size. 
+In percentage values those two represent 17% for weight and 28% for outlet size. 
+I beleive that is way too much to drop, so I chose to impute and encode instead. 
+I used median imputation because most of the numerical data does not have a normal distribution.
 ## Results
 Here are examples of how to embed images from your sub-folder
 Visual 1 Title
